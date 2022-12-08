@@ -5,6 +5,7 @@
 - **Location:** Belarus, Minsk
 - **Phone:** +375 29 8516300
 - **Email:** andreialisenok@gmail.com
+
 [![Linkedin](https://img.shields.io/badge/Linkedin-fff?style=for-the-badge&logo=Linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/andreialisenok/)
 [![Github](https://img.shields.io/badge/Github-fff?style=for-the-badge&logo=Github&logoColor=181717)](https://github.com/andreialisenok)
 [![discord](https://img.shields.io/badge/discord-fff?style=for-the-badge&logo=discord&logoColor=5865F2)](https://discordapp.com/users/9270)
@@ -20,3 +21,20 @@ I develop websites and applications, user interfaces for web projects, I work wi
 Team interaction. I am constantly developing and learning new technologies 🧑‍💻.
 
 **Hobbies:** bicycle - 🚲, movies - 📺, music - 🎧, sports - ⚽, fishing - 🎣, board games - 🎲, etc.
+## 💪 Skills
+[![HTML](https://skillicons.dev/icons?i=html)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Javascript](https://skillicons.dev/icons?i=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![jquery](https://skillicons.dev/icons?i=jquery)](https://jquery.com/)
+[![bootstrap](https://skillicons.dev/icons?i=bootstrap)](https://getbootstrap.com/)
+[![sass](https://skillicons.dev/icons?i=sass)](https://sass-lang.com/)
+[![pug](https://skillicons.dev/icons?i=pug)](https://pugjs.org/)
+[![webpack](https://skillicons.dev/icons?i=webpack)](https://webpack.js.org/)
+[![react](https://skillicons.dev/icons?i=react)](https://reactjs.org/)
+[![styledcomponents](https://skillicons.dev/icons?i=styledcomponents)](https://styled-components.com/)
+[![git](https://skillicons.dev/icons?i=git)](https://git-scm.com/)
+[![github](https://skillicons.dev/icons?i=github)](https://github.com/)
+[![figma](https://skillicons.dev/icons?i=figma)](https://www.figma.com/)
+[![idea](https://skillicons.dev/icons?i=idea)](https://www.jetbrains.com/)
+[![vscode](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com/)
+
