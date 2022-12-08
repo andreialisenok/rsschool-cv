@@ -50,13 +50,13 @@ Team interaction. I am constantly developing and learning new technologies 🧑�
 const reverseWords = str => str.split('').reverse().join('').split(' ').reverse().join(' ');
 ```
 ## 💼 Experience
-- **myitschool, Belarus** | Mentor | *2022 - Present*
-- **Arteza, USA** | Frontend Developer | *2019 - 2022*
-- **Freelance** | Frontend Developer | *2017 - Present*
+- **myitschool, Belarus** - Mentor - *2022 - Present*
+- **Arteza, USA** - Frontend Developer - *2019 - 2022*
+- **Freelance** - Frontend Developer - *2017 - Present*
 
 ## 👨‍🎓 Education
-- **Minsk Innovation University, Belarus** | Economics | 2011 - 2016
-- **Self-education** | [freecodecamp](https://www.freecodecamp.org/) | [Harvard CS50](https://www.youtube.com/watch?v=8mAITcNt710) | [udemy](https://www.udemy.com/) | [mdn](https://developer.mozilla.org/en-US/) | etc
+- **Minsk Innovation University, Belarus** - Economics - 2011 - 2016
+- **Self-education** - [freecodecamp](https://www.freecodecamp.org/) - [Harvard CS50](https://www.youtube.com/watch?v=8mAITcNt710) - [udemy](https://www.udemy.com/) - [mdn](https://developer.mozilla.org/en-US/) - etc
 
 ## 📙 Languages
 - **English** - A2
