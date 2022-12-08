@@ -12,3 +12,11 @@
 [![Facebook](https://img.shields.io/badge/Facebook-fff?style=for-the-badge&logo=Facebook&logoColor=1877F2)](https://www.facebook.com/andreialisenok)
 [![twitter](https://img.shields.io/badge/twitter-fff?style=for-the-badge&logo=twitter&logoColor=1DA1F2)](https://twitter.com/andreialisenok)
 [![instagram](https://img.shields.io/badge/instagram-fff?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://www.instagram.com/andreialisenok/)
+
+## 🚀 About Me
+**Business** is not only a beautiful design of a site or application, but also the correct structure, clear and well-written code that any programmer can easily understand.
+
+I develop websites and applications, user interfaces for web projects, I work with a library of custom components. Creation of high-quality UX optimized components. I work with the company's products, participate in their continuous improvement.
+Team interaction. I am constantly developing and learning new technologies 🧑‍💻.
+
+**Hobbies:** bicycle - 🚲, movies - 📺, music - 🎧, sports - ⚽, fishing - 🎣, board games - 🎲, etc.
