@@ -1,0 +1,320 @@
+/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+/* Remove default margin */
+* {
+  margin: 0; }
+
+/* Allow percentage-based heights in the application */
+html,
+body {
+  height: 100%; }
+
+/*
+    Typographic tweaks!
+    Add accessible line-height
+    Improve text rendering
+*/
+html {
+  font-size: 62.5%; }
+
+body {
+  line-height: 1.5; }
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/*
+    Remove list styles (bullets/numbers)
+    in case you use it with normalize.css
+  */
+ol,
+ul {
+  list-style: none; }
+
+/* Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%; }
+
+/* Remove built-in form typography styles */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word; }
+
+/* Removes spacing between cells in tables */
+table {
+  border-collapse: collapse; }
+
+/* Revert the 'white-space' property for textarea elements on Safari */
+textarea {
+  white-space: revert; }
+
+/* Create a root stacking context */
+#root,
+#__next {
+  isolation: isolate; }
+
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  background: #fff;
+  color: #000; }
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; }
+
+.lock {
+  overflow: hidden; }
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto; }
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700; }
+
+.header {
+  padding: 80px 0 20px; }
+  .header__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center; }
+  .header__title {
+    font-size: 2rem; }
+    @media (min-width: 768px) {
+      .header__title {
+        font-size: 3rem; } }
+  .header__photo {
+    border-radius: 50%;
+    width: 200px;
+    height: auto; }
+  .header__nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    background: #ddd;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    min-height: 40px; }
+
+.contact {
+  padding: 20px 0; }
+  .contact__text--bold {
+    font-weight: 700; }
+  .contact__mail, .contact__phone {
+    cursor: pointer; }
+  .contact__list {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px; }
+  .contact__link {
+    cursor: pointer; }
+    .contact__link svg {
+      width: 30px;
+      height: 30px; }
+    .contact__link--linkedin svg {
+      fill: #0a66c2; }
+    .contact__link--github svg {
+      fill: #181717; }
+    .contact__link--discord svg {
+      fill: #5865f2; }
+    .contact__link--telegram svg {
+      fill: #26a5e4; }
+    .contact__link--facebook svg {
+      fill: #1877f2; }
+    .contact__link--twitter svg {
+      fill: #1da1f2; }
+    .contact__link--instagram svg {
+      fill: #e4405f; }
+
+.about {
+  padding: 20px 0; }
+  .about__text:not(:last-child) {
+    margin-bottom: 20px; }
+  .about__text--bold {
+    font-weight: 700; }
+
+.skills {
+  padding: 20px 0; }
+  .skills__list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center; }
+  .skills__link {
+    cursor: pointer; }
+    .skills__link svg {
+      width: 30px;
+      height: 30px; }
+    .skills__link--html svg {
+      fill: #e34f26; }
+    .skills__link--css svg {
+      fill: #1572b6; }
+    .skills__link--js svg {
+      fill: #f7df1e; }
+    .skills__link--jquery svg {
+      fill: #0769ad; }
+    .skills__link--bootstrap svg {
+      fill: #7952b3; }
+    .skills__link--sass svg {
+      fill: #cc6699; }
+    .skills__link--pug svg {
+      fill: #a86454; }
+    .skills__link--webpack svg {
+      fill: #8dd6f9; }
+    .skills__link--react svg {
+      fill: #61dafb; }
+    .skills__link--sc svg {
+      fill: #db7093; }
+    .skills__link--git svg {
+      fill: #f05032; }
+    .skills__link--github svg {
+      fill: #181717; }
+    .skills__link--figma svg {
+      fill: #f24e1e; }
+    .skills__link--idea svg {
+      fill: #000000; }
+    .skills__link--vscode svg {
+      fill: #007acc; }
+
+.code-example {
+  padding: 20px 0; }
+  .code-example__title {
+    font-style: italic;
+    margin-bottom: 20px; }
+  .code-example__code {
+    display: block;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    background: #eee; }
+    .code-example__code:not(:last-child) {
+      margin-bottom: 20px; }
+
+.experience {
+  padding: 20px 0; }
+  .experience__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; }
+  .experience__item--bold {
+    font-weight: 700; }
+
+.education {
+  padding: 20px 0; }
+  .education__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; }
+  .education__item--bold {
+    font-weight: 700; }
+
+.languages {
+  padding: 20px 0; }
+  .languages__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; }
+  .languages__item--bold {
+    font-weight: 700; }
+
+.footer {
+  padding: 20px 0;
+  background: #ddd; }
+  .footer__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .footer__link {
+    cursor: pointer; }
+  .footer__logo {
+    width: 100px;
+    height: auto; }
+
+.burger {
+  height: calc(40px - 10px);
+  width: calc(40px - 10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  position: relative;
+  z-index: 100;
+  cursor: pointer; }
+  .burger span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #000; }
+  @media (min-width: 768px) {
+    .burger {
+      display: none; } }
+
+.menu {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transform: translateX(-100%);
+  background: #ddd; }
+  .menu__link {
+    cursor: pointer; }
+  @media (min-width: 768px) {
+    .menu {
+      flex-direction: row;
+      position: static;
+      transform: translateX(0);
+      display: flex; } }
+
+.isOpen {
+  transform: translateX(0); }
+
+.lock {
+  overflow: hidden; }
+
+/*# sourceMappingURL=style.css.map */
