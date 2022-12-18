@@ -83,6 +83,12 @@ body {
   background: #fff;
   color: #000; }
 
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; }
+
 .lock {
   overflow: hidden; }
 

@@ -4,6 +4,12 @@ body {
   background: $white;
   color: $black;
 }
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
 .lock {
   overflow: hidden;
 }
