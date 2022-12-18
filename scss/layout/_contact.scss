@@ -1,0 +1,59 @@
+.contact {
+  padding: 20px 0;
+  &__text {
+    &--bold {
+      font-weight: 700;
+    }
+  }
+  &__mail,
+  &__phone {
+    cursor: pointer;
+  }
+  &__list {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  &__link {
+    cursor: pointer;
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+    &--linkedin {
+      svg {
+        fill: #0a66c2;
+      }
+    }
+    &--github {
+      svg {
+        fill: #181717;
+      }
+    }
+    &--discord {
+      svg {
+        fill: #5865f2;
+      }
+    }
+    &--telegram {
+      svg {
+        fill: #26a5e4;
+      }
+    }
+    &--facebook {
+      svg {
+        fill: #1877f2;
+      }
+    }
+    &--twitter {
+      svg {
+        fill: #1da1f2;
+      }
+    }
+    &--instagram {
+      svg {
+        fill: #e4405f;
+      }
+    }
+  }
+}

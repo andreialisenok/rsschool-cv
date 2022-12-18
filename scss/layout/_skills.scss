@@ -1,0 +1,91 @@
+.skills {
+  padding: 20px 0;
+  &__list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  &__link {
+    cursor: pointer;
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+    &--html {
+      svg {
+        fill: #e34f26;
+      }
+    }
+    &--css {
+      svg {
+        fill: #1572b6;
+      }
+    }
+    &--js {
+      svg {
+        fill: #f7df1e;
+      }
+    }
+    &--jquery {
+      svg {
+        fill: #0769ad;
+      }
+    }
+    &--bootstrap {
+      svg {
+        fill: #7952b3;
+      }
+    }
+    &--sass {
+      svg {
+        fill: #cc6699;
+      }
+    }
+    &--pug {
+      svg {
+        fill: #a86454;
+      }
+    }
+    &--webpack {
+      svg {
+        fill: #8dd6f9;
+      }
+    }
+    &--react {
+      svg {
+        fill: #61dafb;
+      }
+    }
+    &--sc {
+      svg {
+        fill: #db7093;
+      }
+    }
+    &--git {
+      svg {
+        fill: #f05032;
+      }
+    }
+    &--github {
+      svg {
+        fill: #181717;
+      }
+    }
+    &--figma {
+      svg {
+        fill: #f24e1e;
+      }
+    }
+    &--idea {
+      svg {
+        fill: #000000;
+      }
+    }
+    &--vscode {
+      svg {
+        fill: #007acc;
+      }
+    }
+  }
+}

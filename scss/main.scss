@@ -1,0 +1,16 @@
+@import 'base/var';
+@import 'base/reset';
+@import 'base/base';
+
+@import 'layout/header';
+@import 'layout/contact';
+@import 'layout/about';
+@import 'layout/skills';
+@import 'layout/code-example';
+@import 'layout/experience';
+@import 'layout/education';
+@import 'layout/languages';
+@import 'layout/footer';
+
+@import 'components/burger';
+@import 'components/menu';
