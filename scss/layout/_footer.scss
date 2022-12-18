@@ -1,0 +1,16 @@
+.footer {
+  padding: 20px 0;
+  background: #ddd;
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__link {
+    cursor: pointer;
+  }
+  &__logo {
+    width: 100px;
+    height: auto;
+  }
+}
